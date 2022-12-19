@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.juanjiga.vescla.MainActivity">
+
+      <item android:id="@+id/insertar_actionBar"
+            android:title="@string/insertar_actionBar"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+      <item android:id="@+id/borrar_actionBar"
+            android:title="@string/borrar_actionBar"
+            android:orderInCategory="200"
+            app:showAsAction="never" />
+
+      <item android:id="@+id/cambiarpin_actionBar"
+            android:title="@string/cambiarpin_actionBar"
+            android:orderInCategory="200"
+            app:showAsAction="never" />
+
+      <item android:id="@+id/salir_actionBar"
+            android:title="@string/salir_actionBar"
+            android:orderInCategory="300"
+            app:showAsAction="never" />
+
+
+</menu>
